@@ -9,16 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@headlessui/react": "^2.2.5",
+    "@heroui/accordion": "^2.2.20",
+    "@heroui/react": "^2.8.1",
+    "@heroui/system": "^2.4.19",
+    "@heroui/theme": "^2.4.19",
+    "framer-motion": "^12.23.6",
+    "headlessui": "^0.0.0",
+    "next": "15.4.3",
     "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.4.3"
+    "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "typescript": "^5"
   }
 }
